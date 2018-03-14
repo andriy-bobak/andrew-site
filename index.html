@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Andrew Bobak</title>
+    <link rel="shortcut icon" type="image/jpg" href="img/favicon.jpg">
+    <link rel="stylesheet" href="https://bootswatch.com/4/darkly/bootstrap.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Головна</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#about">Про мене <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#portfolio">Портфоліо</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <main>
+
+            <section class="profile">
+                <h1>Андрій Бобак</h1>
+                <p>Front-end developer</p>
+            </section>
+    </div>
+
+
+    <div class="description" id="about">
+        <img src="img/andrew_bobak-foto.png" alt="Andrew Bobak photo">
+        <p>Я — веб-розробник</p>
+        <p>Живу і працюю в Україні. Що я можу вам запропонувати?</p>
+        <p>Натисніть на кнопку</p>
+    </div>
+
+    <div class="button-trigger">
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+             Давайте знайомитися
+        </button>
+
+
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Про мене</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        <img src="img/andrew_bobak-foto.png" alt="My photo" class="modal-foto">
+
+                        <p>Вітаю!</p>
+                        <p>
+                            Мене звуть Андрій, я фрілансер веб-дизайнер, веб-розробник з України.
+                            Я люблю створювати гарний та інтуїтивно зрозумілий дизайн. Пишу добре 
+                            структурований, валідний і чистий код з використанням сучасних технологій. 
+                            Мені подобається перетворювати складні проблеми в прості, моя місія – допомогти 
+                            вашому бізнесу стимулювати продажі та підвищити прибутковість. Створенням сайтів
+                            займаюся з 2018 року.
+                        </p>
+
+                        <p>
+                            На сьогоднішній день налічується більше ?+ успішно реалізованих мною проектів:
+                            корпоративні сайти, невеликі сайти-візитки, кілька інтернет-магазинів, Landing Page.
+                        </p>
+
+
+                        <h3>Мої послуги:</h3>
+                        <ul>
+                            <li>Дизайн сайтів</li>
+                            <li>Створення сайтів</li>
+                            <li>Верстка з макету</li>
+                        </ul>
+
+                        <h6>Ваш успіх – відмінна реклама моїх навичок, порядності і професіоналізму.</h6>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="portfolio" id="portfolio">
+            <h2 class="h2_portfolio">Портфоліо</h2>
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="img/andrew_bobak-site-card.png" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="img/site.png" alt="Second slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                </div>
+    </div>
+
+
+
+
+    <article class="contacts" id="contacts">
+        <h2>Контакти:</h2>
+        <ul>
+            <li>
+                <a href="mailto:andrewbobak79@gmail.com" class="contact-item">
+                        <img src="img/gmail-logo.png" alt="e-mail logo">
+                        <div> Мій e-mail: andrewbobak79@gmail.com</div>
+                    </a>
+            </li>
+
+            <li>
+                <a href="https://www.facebook.com/andrew.bobak.79" class="contact-item">
+                        <img src="img/facebook-logo.png" alt="facebook logo">
+                        <div> Моя сторінка у Facebook</div>
+                    </a>
+            </li>
+
+            <li>
+                <a href="https://github.com/andriy-bobak" class="contact-item">
+                        <img src="img/github-logo.png" alt="github logo">
+                        <div> Це мій GitHub: andriy-bobak</div>
+                    </a>
+            </li>
+        </ul>
+    </article>
+
+
+    <div class="container text-center">
+        <form action="andrewbobak79@gmail.com" method="POST">
+            <fieldset>
+
+                <h2 class="h2_contact">Ви можете написати мені:</h2>
+                <div class="form-group row">
+                    <label for="client-name" class="col-sm-4 col-form-label text-right d-none d-sm-block">Ваші ім'я і прізвище:</label>
+                    <div class="col-sm-6">
+                        <input id="client-name" name="client-name" type="text" class="form-control" placeholder="Ваші ім'я і прізвище" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="client-email" class="col-sm-4 col-form-label text-right d-none d-sm-block">Ваш e-mail:</label>
+                    <div class="col-sm-6">
+                        <input type="email" name="client-email" class="form-control" id="client-email" placeholder="Ваша e-mail" required>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="client-textarea" class="col-sm-4 col-form-label text-right d-none d-sm-block">Введіть текст:</label>
+                    <div class="col-sm-6">
+                        <textarea class="form-control" id="client-textarea" name="client-textarea" rows="3" placeholder="Введіть текст"></textarea>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-lg btn-primary">Готово</button>
+
+                <br>
+            </fieldset>
+        </form>
+    </div>
+    </main>
+
+    </div>
+
+    <footer>
+        <p>Aндрій Бобак</p>
+        <p>2018</p>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="smooth-scroll.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+</body>
+
+</html>
